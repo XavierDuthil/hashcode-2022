@@ -1,0 +1,16 @@
+[
+	{
+		"ProjectName": "WebServer",
+		"Contributors": [
+			"Bob",
+			"Anna"
+		]
+	},
+	{
+		"ProjectName": "WebChat",
+		"Contributors": [
+			"Maria",
+			"Bob"
+		]
+	}
+]

@@ -1,0 +1,685 @@
+[
+	{
+		"ProjectName": "CollectionsProv5",
+		"Contributors": [
+			"HiroshiT",
+			"SundarD",
+			"PetarZ"
+		]
+	},
+	{
+		"ProjectName": "NewsXv5",
+		"Contributors": [
+			"SergeyF",
+			"PrzemekH"
+		]
+	},
+	{
+		"ProjectName": "KeepNextv4",
+		"Contributors": [
+			"SergeyR"
+		]
+	},
+	{
+		"ProjectName": "VoiceZv6",
+		"Contributors": [
+			"HiroshiQ",
+			"MichalS"
+		]
+	},
+	{
+		"ProjectName": "MapsNextv5",
+		"Contributors": [
+			"SusanS",
+			"LarryV"
+		]
+	},
+	{
+		"ProjectName": "ClassroomSv2",
+		"Contributors": [
+			"MatasA"
+		]
+	},
+	{
+		"ProjectName": "PatentsMaxv2",
+		"Contributors": [
+			"PhilippO",
+			"MichalB",
+			"StepanO",
+			"MatasP",
+			"HiroshiE",
+			"RuthJ",
+			"RuthV",
+			"BakhodirG",
+			"BenjaminK",
+			"LarryC"
+		]
+	},
+	{
+		"ProjectName": "AndroidAutoZv1",
+		"Contributors": [
+			"PetarV",
+			"SundarJ"
+		]
+	},
+	{
+		"ProjectName": "SheetsZv4",
+		"Contributors": [
+			"SusanX",
+			"SergeyR"
+		]
+	},
+	{
+		"ProjectName": "ScholarSv9",
+		"Contributors": [
+			"NellyM",
+			"PrabhakarV",
+			"BakhodirM",
+			"SergeyR",
+			"MaxB",
+			"SergeyJ",
+			"SundarH",
+			"PrzemekU",
+			"ThomasN",
+			"StepanM",
+			"FionaZ"
+		]
+	},
+	{
+		"ProjectName": "SkyZv5",
+		"Contributors": [
+			"SundarM"
+		]
+	},
+	{
+		"ProjectName": "DocsUltrav2",
+		"Contributors": [
+			"BakhodirB",
+			"NellyM",
+			"ClementA",
+			"NellyW",
+			"LarryL",
+			"PrabhakarM",
+			"RuthL",
+			"SergeyD"
+		]
+	},
+	{
+		"ProjectName": "DataNextv9",
+		"Contributors": [
+			"ClementO",
+			"SergeyR",
+			"HiroshiI",
+			"JenE",
+			"PrzemekM",
+			"LarryV",
+			"JenF",
+			"StepanK",
+			"PrzemekH",
+			"LarryM",
+			"HiroshiO",
+			"TatiyanaI",
+			"NellyU",
+			"NellyB",
+			"PrzemekW",
+			"HiroshiD",
+			"PetarV",
+			"BenjaminY",
+			"SergeyQ",
+			"PetarT",
+			"JenY",
+			"TatiyanaU",
+			"NellyR",
+			"TatiyanaW",
+			"ThomasI"
+		]
+	},
+	{
+		"ProjectName": "CurrentsXv1",
+		"Contributors": [
+			"BakhodirF"
+		]
+	},
+	{
+		"ProjectName": "DataSv9",
+		"Contributors": [
+			"PrzemekI",
+			"FionaX",
+			"MaxF",
+			"MaxA",
+			"PrabhakarA",
+			"SundarX",
+			"BenjaminN",
+			"TatiyanaG",
+			"BakhodirD",
+			"FionaB"
+		]
+	},
+	{
+		"ProjectName": "AndroidTVMaxv1",
+		"Contributors": [
+			"FionaR",
+			"NellyY",
+			"MaxA",
+			"JenE",
+			"SergeyV",
+			"SergeyW",
+			"TatiyanaD",
+			"FionaL",
+			"SusanD",
+			"ThomasE",
+			"PhilippV",
+			"MichalP",
+			"BenjaminK",
+			"PhilippT",
+			"StepanA",
+			"RuthN"
+		]
+	},
+	{
+		"ProjectName": "SkyProv4",
+		"Contributors": [
+			"BakhodirC",
+			"ThomasQ"
+		]
+	},
+	{
+		"ProjectName": "SlidesProv5",
+		"Contributors": [
+			"SergeyQ",
+			"LarryZ"
+		]
+	},
+	{
+		"ProjectName": "DatasetSearchLitev6",
+		"Contributors": [
+			"PrzemekP",
+			"MaxA",
+			"LarryU",
+			"ClementJ",
+			"StepanL",
+			"SundarI",
+			"PhilippK",
+			"PetarN",
+			"HiroshiM"
+		]
+	},
+	{
+		"ProjectName": "StreetViewXv2",
+		"Contributors": [
+			"RuthW",
+			"PrzemekF",
+			"PetarM"
+		]
+	},
+	{
+		"ProjectName": "ChromeLitev4",
+		"Contributors": [
+			"LarryU",
+			"MichalY",
+			"PrabhakarA"
+		]
+	},
+	{
+		"ProjectName": "GroupsZv8",
+		"Contributors": [
+			"BakhodirL",
+			"PetarI",
+			"TatiyanaC",
+			"MichalV",
+			"BenjaminK"
+		]
+	},
+	{
+		"ProjectName": "LoggingXv4",
+		"Contributors": [
+			"SergeyJ",
+			"StepanV",
+			"MaxK"
+		]
+	},
+	{
+		"ProjectName": "FuchsiaProv7",
+		"Contributors": [
+			"BenjaminH",
+			"ClementI",
+			"BakhodirQ"
+		]
+	},
+	{
+		"ProjectName": "NewsMaxv1",
+		"Contributors": [
+			"TatiyanaT"
+		]
+	},
+	{
+		"ProjectName": "ConnectXv3",
+		"Contributors": [
+			"StefanG"
+		]
+	},
+	{
+		"ProjectName": "FinanceMaxv7",
+		"Contributors": [
+			"MaxY",
+			"StepanU",
+			"HiroshiL",
+			"ThomasT",
+			"BenjaminP"
+		]
+	},
+	{
+		"ProjectName": "PixelProv1",
+		"Contributors": [
+			"ThomasK"
+		]
+	},
+	{
+		"ProjectName": "CalendarLitev5",
+		"Contributors": [
+			"PrzemekQ",
+			"StepanH",
+			"PrabhakarB",
+			"NellyK"
+		]
+	},
+	{
+		"ProjectName": "MarsUltrav4",
+		"Contributors": [
+			"PhilippY",
+			"SergeyA",
+			"PetarG",
+			"BenjaminY",
+			"TatiyanaT",
+			"StefanD",
+			"NellyO",
+			"MichalQ",
+			"PhilippE",
+			"LarryG",
+			"BakhodirJ",
+			"TatiyanaV",
+			"SusanC",
+			"BakhodirB",
+			"PetarA",
+			"ClementX",
+			"RuthP"
+		]
+	},
+	{
+		"ProjectName": "KeepXv1",
+		"Contributors": [
+			"PrabhakarA"
+		]
+	},
+	{
+		"ProjectName": "TravelProv6",
+		"Contributors": [
+			"MaxW"
+		]
+	},
+	{
+		"ProjectName": "ScholarXv6",
+		"Contributors": [
+			"SundarD",
+			"StefanK",
+			"PrabhakarC",
+			"LarryJ",
+			"SusanL",
+			"SundarA",
+			"RuthF",
+			"HiroshiK",
+			"MatasK",
+			"PrzemekT",
+			"FionaO",
+			"TatiyanaP"
+		]
+	},
+	{
+		"ProjectName": "MoonXv3",
+		"Contributors": [
+			"MaxR",
+			"PetarM"
+		]
+	},
+	{
+		"ProjectName": "CollectionsUltrav9",
+		"Contributors": [
+			"HiroshiZ",
+			"BenjaminO"
+		]
+	},
+	{
+		"ProjectName": "TravelUltrav3",
+		"Contributors": [
+			"PetarR",
+			"JenE"
+		]
+	},
+	{
+		"ProjectName": "StorageNextv9",
+		"Contributors": [
+			"BenjaminQ",
+			"NellyV",
+			"PhilippK",
+			"MaxR",
+			"PetarV",
+			"TatiyanaZ",
+			"MaxN",
+			"SusanQ",
+			"StepanK",
+			"BenjaminT",
+			"BenjaminY"
+		]
+	},
+	{
+		"ProjectName": "StreetViewMaxv8",
+		"Contributors": [
+			"PetarA"
+		]
+	},
+	{
+		"ProjectName": "CurrentsProv7",
+		"Contributors": [
+			"SusanT"
+		]
+	},
+	{
+		"ProjectName": "AndroidTVMaxv3",
+		"Contributors": [
+			"HiroshiJ",
+			"SergeyW",
+			"MichalW",
+			"StefanV",
+			"MatasY",
+			"PrzemekW",
+			"FionaV",
+			"BakhodirO",
+			"StefanP",
+			"JenJ",
+			"ClementA",
+			"StepanA",
+			"HiroshiM",
+			"FionaA",
+			"SundarI",
+			"ThomasO",
+			"RuthE",
+			"RuthJ"
+		]
+	},
+	{
+		"ProjectName": "ReleaseLitev7",
+		"Contributors": [
+			"RuthT",
+			"StepanA",
+			"FionaV",
+			"MaxO"
+		]
+	},
+	{
+		"ProjectName": "FinanceXv5",
+		"Contributors": [
+			"HiroshiU"
+		]
+	},
+	{
+		"ProjectName": "StreetViewXv9",
+		"Contributors": [
+			"PrzemekQ",
+			"StefanX",
+			"SusanI",
+			"ThomasU",
+			"NellyI"
+		]
+	},
+	{
+		"ProjectName": "TravelZv6",
+		"Contributors": [
+			"ThomasL",
+			"PetarA",
+			"LarryI",
+			"NellyI",
+			"LarryE",
+			"PrzemekF"
+		]
+	},
+	{
+		"ProjectName": "ClassroomXv9",
+		"Contributors": [
+			"TatiyanaL",
+			"StepanK"
+		]
+	},
+	{
+		"ProjectName": "ScholarZv1",
+		"Contributors": [
+			"RuthY",
+			"MichalQ",
+			"PrzemekP",
+			"LarryU"
+		]
+	},
+	{
+		"ProjectName": "CodeZv4",
+		"Contributors": [
+			"PhilippR",
+			"BenjaminR"
+		]
+	},
+	{
+		"ProjectName": "FeedBurnerLitev8",
+		"Contributors": [
+			"StefanN",
+			"BenjaminL",
+			"ThomasV"
+		]
+	},
+	{
+		"ProjectName": "DaydreamMaxv4",
+		"Contributors": [
+			"ThomasQ"
+		]
+	},
+	{
+		"ProjectName": "AndroidTVLitev7",
+		"Contributors": [
+			"StepanJ",
+			"SergeyT",
+			"JenE",
+			"ThomasI",
+			"RuthD",
+			"NellyM",
+			"ThomasA",
+			"PetarE",
+			"StefanA"
+		]
+	},
+	{
+		"ProjectName": "CurrentsProv2",
+		"Contributors": [
+			"RuthW"
+		]
+	},
+	{
+		"ProjectName": "BloggerProv9",
+		"Contributors": [
+			"ThomasE"
+		]
+	},
+	{
+		"ProjectName": "ChatLitev6",
+		"Contributors": [
+			"PrzemekL",
+			"MaxM",
+			"NellyD",
+			"JenH",
+			"ClementB",
+			"StefanH",
+			"BenjaminK",
+			"PrabhakarB",
+			"PetarJ",
+			"PhilippS",
+			"StepanK",
+			"LarryC"
+		]
+	},
+	{
+		"ProjectName": "LearnProv8",
+		"Contributors": [
+			"JenI"
+		]
+	},
+	{
+		"ProjectName": "BuildUltrav6",
+		"Contributors": [
+			"PhilippK",
+			"MaxU",
+			"BakhodirG",
+			"SundarV"
+		]
+	},
+	{
+		"ProjectName": "CastOSSv6",
+		"Contributors": [
+			"SusanH",
+			"ThomasW",
+			"HiroshiT"
+		]
+	},
+	{
+		"ProjectName": "ArtsNextv5",
+		"Contributors": [
+			"StepanD",
+			"HiroshiQ",
+			"SusanG",
+			"MichalI",
+			"FionaA",
+			"StefanD",
+			"TatiyanaB",
+			"RuthO",
+			"PetarO",
+			"StefanG"
+		]
+	},
+	{
+		"ProjectName": "SantaTrackerProv9",
+		"Contributors": [
+			"JenO"
+		]
+	},
+	{
+		"ProjectName": "MoonUltrav4",
+		"Contributors": [
+			"LarryN"
+		]
+	},
+	{
+		"ProjectName": "SearchUltrav8",
+		"Contributors": [
+			"StepanP",
+			"PhilippI",
+			"MichalS"
+		]
+	},
+	{
+		"ProjectName": "AssistantMaxv9",
+		"Contributors": [
+			"MichalA"
+		]
+	},
+	{
+		"ProjectName": "ChartsMaxv5",
+		"Contributors": [
+			"HiroshiR",
+			"TatiyanaQ",
+			"MichalY",
+			"SusanK",
+			"FionaT"
+		]
+	},
+	{
+		"ProjectName": "FormsUltrav3",
+		"Contributors": [
+			"ThomasL",
+			"MatasF",
+			"ThomasW",
+			"PetarD",
+			"StepanG",
+			"PetarN",
+			"TatiyanaA",
+			"StepanO"
+		]
+	},
+	{
+		"ProjectName": "DuoMaxv1",
+		"Contributors": [
+			"BenjaminL",
+			"PetarJ",
+			"MaxF",
+			"BenjaminG",
+			"TatiyanaT",
+			"LarryD",
+			"ClementV",
+			"NellyD",
+			"JenC",
+			"SergeyR"
+		]
+	},
+	{
+		"ProjectName": "BuildProv1",
+		"Contributors": [
+			"PrabhakarX"
+		]
+	},
+	{
+		"ProjectName": "PixelSv6",
+		"Contributors": [
+			"PrzemekF",
+			"BenjaminS",
+			"SundarM"
+		]
+	},
+	{
+		"ProjectName": "AssistantNextv5",
+		"Contributors": [
+			"PrabhakarE",
+			"StefanW",
+			"NellyN",
+			"PhilippA",
+			"PetarN",
+			"PhilippL",
+			"PrabhakarO",
+			"MichalQ",
+			"StepanW",
+			"MaxW",
+			"PetarA",
+			"MichalF",
+			"TatiyanaJ",
+			"FionaT",
+			"PrzemekG",
+			"BakhodirL",
+			"SundarM",
+			"BenjaminY",
+			"SergeyH"
+		]
+	},
+	{
+		"ProjectName": "ClassroomProv5",
+		"Contributors": [
+			"ThomasM",
+			"RuthH",
+			"TatiyanaB",
+			"MichalA",
+			"SergeyG",
+			"StefanQ",
+			"SundarM",
+			"MichalZ",
+			"RuthO",
+			"RuthP",
+			"StepanQ",
+			"StepanK",
+			"HiroshiX",
+			"ClementC",
+			"HiroshiH"
+		]
+	}
+]

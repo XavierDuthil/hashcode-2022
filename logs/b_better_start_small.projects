@@ -1,0 +1,1633 @@
+[
+	{
+		"Name": "MarsXv1",
+		"Duration": 10,
+		"BestBefore": 549,
+		"CompletionPoints": 3676,
+		"SkillsRequired": [
+			{
+				"Name": "CloudComputing-NET",
+				"Level": 4
+			},
+			{
+				"Name": "BusinessAnalysis-lib",
+				"Level": 3
+			},
+			{
+				"Name": "MachineLearning-2+0",
+				"Level": 4
+			},
+			{
+				"Name": "Blockchain",
+				"Level": 3
+			}
+		],
+		"StartDay": 0,
+		"Contributors": [
+			"HiroshiF",
+			"FionaJ",
+			"MichalB",
+			"MichalP"
+		]
+	},
+	{
+		"Name": "CastOSProv6",
+		"Duration": 10,
+		"BestBefore": 882,
+		"CompletionPoints": 1817,
+		"SkillsRequired": [
+			{
+				"Name": "CloudComputing++",
+				"Level": 3
+			}
+		],
+		"StartDay": 0,
+		"Contributors": [
+			"BakhodirD"
+		]
+	},
+	{
+		"Name": "CollectionsNextv1",
+		"Duration": 11,
+		"BestBefore": 826,
+		"CompletionPoints": 8246,
+		"SkillsRequired": [
+			{
+				"Name": "Dart",
+				"Level": 2
+			},
+			{
+				"Name": "Go-NET",
+				"Level": 5
+			},
+			{
+				"Name": "HTML-js",
+				"Level": 7
+			},
+			{
+				"Name": "Go-NET",
+				"Level": 1
+			}
+		],
+		"StartDay": 0,
+		"Contributors": [
+			"TatiyanaC",
+			"SergeyN",
+			"MatasW",
+			"ClementM"
+		]
+	},
+	{
+		"Name": "MarsLitev5",
+		"Duration": 11,
+		"BestBefore": 698,
+		"CompletionPoints": 4829,
+		"SkillsRequired": [
+			{
+				"Name": "CloudComputing++",
+				"Level": 8
+			},
+			{
+				"Name": "Dart",
+				"Level": 3
+			}
+		],
+		"StartDay": 11,
+		"Contributors": [
+			"BakhodirD",
+			"TatiyanaC"
+		]
+	},
+	{
+		"Name": "ShortsNextv7",
+		"Duration": 11,
+		"BestBefore": 582,
+		"CompletionPoints": 2957,
+		"SkillsRequired": [
+			{
+				"Name": "SQL-js",
+				"Level": 7
+			},
+			{
+				"Name": "TypeScript-lib",
+				"Level": 5
+			},
+			{
+				"Name": "CloudComputing-NET",
+				"Level": 5
+			}
+		],
+		"StartDay": 0,
+		"Contributors": [
+			"FionaF",
+			"PhilippY",
+			"PrabhakarR"
+		]
+	},
+	{
+		"Name": "MapsSv7",
+		"Duration": 12,
+		"BestBefore": 836,
+		"CompletionPoints": 21465,
+		"SkillsRequired": [
+			{
+				"Name": "Blockchain++",
+				"Level": 3
+			},
+			{
+				"Name": "HTML-py",
+				"Level": 1
+			},
+			{
+				"Name": "SQL-js",
+				"Level": 7
+			},
+			{
+				"Name": "Communication-lib",
+				"Level": 1
+			},
+			{
+				"Name": "Communication-3+0",
+				"Level": 3
+			},
+			{
+				"Name": "MATLAB",
+				"Level": 2
+			},
+			{
+				"Name": "HTML-js",
+				"Level": 2
+			},
+			{
+				"Name": "CloudComputing++",
+				"Level": 2
+			},
+			{
+				"Name": "Accessibility-js",
+				"Level": 6
+			},
+			{
+				"Name": "CloudComputing++",
+				"Level": 3
+			}
+		],
+		"StartDay": 22,
+		"Contributors": [
+			"SundarA",
+			"PhilippK",
+			"FionaF",
+			"LarryO",
+			"ClementM",
+			"ThomasK",
+			"MatasW",
+			"LarryX",
+			"ClementE",
+			"BakhodirD"
+		]
+	},
+	{
+		"Name": "ConnectLitev9",
+		"Duration": 12,
+		"BestBefore": 448,
+		"CompletionPoints": 1191,
+		"SkillsRequired": [
+			{
+				"Name": "Blockchain++",
+				"Level": 3
+			}
+		],
+		"StartDay": 34,
+		"Contributors": [
+			"SundarA"
+		]
+	},
+	{
+		"Name": "ClassroomMaxv2",
+		"Duration": 12,
+		"BestBefore": 863,
+		"CompletionPoints": 3836,
+		"SkillsRequired": [
+			{
+				"Name": "Dart",
+				"Level": 3
+			},
+			{
+				"Name": "TechWriting-js",
+				"Level": 7
+			}
+		],
+		"StartDay": 22,
+		"Contributors": [
+			"TatiyanaC",
+			"SusanQ"
+		]
+	},
+	{
+		"Name": "StreamXv6",
+		"Duration": 12,
+		"BestBefore": 711,
+		"CompletionPoints": 12240,
+		"SkillsRequired": [
+			{
+				"Name": "CloudComputing-2+0",
+				"Level": 1
+			},
+			{
+				"Name": "PublicSpeaking-py",
+				"Level": 2
+			},
+			{
+				"Name": "Go-NET",
+				"Level": 1
+			},
+			{
+				"Name": "Communication-3+0",
+				"Level": 1
+			},
+			{
+				"Name": "BusinessAnalysis-lib",
+				"Level": 2
+			}
+		],
+		"StartDay": 34,
+		"Contributors": [
+			"SundarH",
+			"JenK",
+			"SergeyN",
+			"ClementM",
+			"ClementT"
+		]
+	},
+	{
+		"Name": "BuildMaxv1",
+		"Duration": 12,
+		"BestBefore": 707,
+		"CompletionPoints": 6712,
+		"SkillsRequired": [
+			{
+				"Name": "MachineLearning-2+0",
+				"Level": 1
+			},
+			{
+				"Name": "Shell-py",
+				"Level": 1
+			},
+			{
+				"Name": "UXDesign",
+				"Level": 1
+			},
+			{
+				"Name": "Security-js",
+				"Level": 8
+			},
+			{
+				"Name": "PHP-py",
+				"Level": 9
+			}
+		],
+		"StartDay": 10,
+		"Contributors": [
+			"MichalB",
+			"RuthX",
+			"NellyY",
+			"BakhodirG",
+			"SergeyV"
+		]
+	},
+	{
+		"Name": "StreetViewProv9",
+		"Duration": 12,
+		"BestBefore": 328,
+		"CompletionPoints": 13693,
+		"SkillsRequired": [
+			{
+				"Name": "Blockchain++",
+				"Level": 3
+			},
+			{
+				"Name": "PublicSpeaking-py",
+				"Level": 5
+			},
+			{
+				"Name": "Accessibility-js",
+				"Level": 1
+			},
+			{
+				"Name": "HTML-js",
+				"Level": 5
+			},
+			{
+				"Name": "PublicSpeaking-py",
+				"Level": 2
+			},
+			{
+				"Name": "HTML-py",
+				"Level": 2
+			},
+			{
+				"Name": "UXDesign",
+				"Level": 3
+			},
+			{
+				"Name": "Communication-lib",
+				"Level": 1
+			}
+		],
+		"StartDay": 46,
+		"Contributors": [
+			"SundarA",
+			"MatasC",
+			"ClementE",
+			"MatasW",
+			"HiroshiB",
+			"PhilippK",
+			"NellyY",
+			"LarryO"
+		]
+	},
+	{
+		"Name": "DaydreamLitev7",
+		"Duration": 12,
+		"BestBefore": 535,
+		"CompletionPoints": 2202,
+		"SkillsRequired": [
+			{
+				"Name": "CloudComputing-2+0",
+				"Level": 5
+			}
+		],
+		"StartDay": 0,
+		"Contributors": [
+			"BenjaminO"
+		]
+	},
+	{
+		"Name": "FeedBurnerMaxv3",
+		"Duration": 12,
+		"BestBefore": 547,
+		"CompletionPoints": 4572,
+		"SkillsRequired": [
+			{
+				"Name": "Dart",
+				"Level": 3
+			},
+			{
+				"Name": "Communication-lib",
+				"Level": 3
+			}
+		],
+		"StartDay": 58,
+		"Contributors": [
+			"TatiyanaC",
+			"LarryO"
+		]
+	},
+	{
+		"Name": "ChromeOSUltrav5",
+		"Duration": 13,
+		"BestBefore": 743,
+		"CompletionPoints": 7065,
+		"SkillsRequired": [
+			{
+				"Name": "PublicSpeaking-py",
+				"Level": 1
+			},
+			{
+				"Name": "MySQL",
+				"Level": 3
+			},
+			{
+				"Name": "JavaScript-NET",
+				"Level": 1
+			},
+			{
+				"Name": "Parallelization-NET",
+				"Level": 1
+			},
+			{
+				"Name": "HTML-py",
+				"Level": 3
+			},
+			{
+				"Name": "JavaScript-2+0",
+				"Level": 4
+			}
+		],
+		"StartDay": 58,
+		"Contributors": [
+			"JenK",
+			"PhilippH",
+			"SergeyU",
+			"HiroshiW",
+			"PhilippK",
+			"ClementL"
+		]
+	},
+	{
+		"Name": "GmailLitev9",
+		"Duration": 13,
+		"BestBefore": 924,
+		"CompletionPoints": 27535,
+		"SkillsRequired": [
+			{
+				"Name": "Angular-NET",
+				"Level": 3
+			},
+			{
+				"Name": "Security-js",
+				"Level": 3
+			},
+			{
+				"Name": "MATLAB",
+				"Level": 1
+			},
+			{
+				"Name": "Ajax-3+0",
+				"Level": 5
+			},
+			{
+				"Name": "Security-js",
+				"Level": 9
+			},
+			{
+				"Name": "HTML-js",
+				"Level": 7
+			},
+			{
+				"Name": "CloudComputing++",
+				"Level": 2
+			},
+			{
+				"Name": "CloudComputing-NET",
+				"Level": 2
+			},
+			{
+				"Name": "Security-js",
+				"Level": 1
+			},
+			{
+				"Name": "Go-NET",
+				"Level": 3
+			}
+		],
+		"StartDay": 58,
+		"Contributors": [
+			"PhilippP",
+			"PetarF",
+			"ThomasK",
+			"StefanQ",
+			"BakhodirG",
+			"MatasW",
+			"LarryX",
+			"HiroshiF",
+			"JenG",
+			"SergeyN"
+		]
+	},
+	{
+		"Name": "WebserverProv6",
+		"Duration": 13,
+		"BestBefore": 826,
+		"CompletionPoints": 2316,
+		"SkillsRequired": [
+			{
+				"Name": "Angular-NET",
+				"Level": 7
+			}
+		],
+		"StartDay": 71,
+		"Contributors": [
+			"PhilippP"
+		]
+	},
+	{
+		"Name": "AndroidTVNextv1",
+		"Duration": 13,
+		"BestBefore": 337,
+		"CompletionPoints": 12497,
+		"SkillsRequired": [
+			{
+				"Name": "PublicSpeaking-py",
+				"Level": 6
+			},
+			{
+				"Name": "Dart-lib",
+				"Level": 5
+			},
+			{
+				"Name": "PHP-py",
+				"Level": 8
+			},
+			{
+				"Name": "Communication-lib",
+				"Level": 4
+			},
+			{
+				"Name": "Angular-NET",
+				"Level": 2
+			},
+			{
+				"Name": "Assembly-py",
+				"Level": 3
+			},
+			{
+				"Name": "JavaScript-NET",
+				"Level": 2
+			},
+			{
+				"Name": "PHP-py",
+				"Level": 4
+			}
+		],
+		"StartDay": 84,
+		"Contributors": [
+			"MatasC",
+			"MichalZ",
+			"SergeyV",
+			"LarryO",
+			"PhilippP",
+			"ThomasM",
+			"SergeyU",
+			"SundarL"
+		]
+	},
+	{
+		"Name": "GameProv6",
+		"Duration": 13,
+		"BestBefore": 936,
+		"CompletionPoints": 7306,
+		"SkillsRequired": [
+			{
+				"Name": "Communication-lib",
+				"Level": 2
+			},
+			{
+				"Name": "TechWriting-js",
+				"Level": 7
+			},
+			{
+				"Name": "Ajax-3+0",
+				"Level": 8
+			}
+		],
+		"StartDay": 97,
+		"Contributors": [
+			"LarryO",
+			"SusanQ",
+			"SergeyT"
+		]
+	},
+	{
+		"Name": "ExploreUltrav8",
+		"Duration": 13,
+		"BestBefore": 492,
+		"CompletionPoints": 16882,
+		"SkillsRequired": [
+			{
+				"Name": "CloudComputing++",
+				"Level": 4
+			},
+			{
+				"Name": "Communication-3+0",
+				"Level": 5
+			},
+			{
+				"Name": "PHP-py",
+				"Level": 2
+			},
+			{
+				"Name": "CloudComputing-NET",
+				"Level": 5
+			},
+			{
+				"Name": "BusinessAnalysis-lib",
+				"Level": 5
+			},
+			{
+				"Name": "TechWriting-js",
+				"Level": 2
+			},
+			{
+				"Name": "Accessibility-js",
+				"Level": 6
+			}
+		],
+		"StartDay": 110,
+		"Contributors": [
+			"BakhodirD",
+			"ClementM",
+			"SundarL",
+			"PrabhakarR",
+			"FionaJ",
+			"SusanQ",
+			"ClementE"
+		]
+	},
+	{
+		"Name": "ResearchXv8",
+		"Duration": 14,
+		"BestBefore": 394,
+		"CompletionPoints": 12213,
+		"SkillsRequired": [
+			{
+				"Name": "Delphi",
+				"Level": 6
+			},
+			{
+				"Name": "Communication-3+0",
+				"Level": 5
+			},
+			{
+				"Name": "CloudComputing-2+0",
+				"Level": 5
+			},
+			{
+				"Name": "PublicSpeaking-py",
+				"Level": 3
+			},
+			{
+				"Name": "Accessibility-js",
+				"Level": 5
+			}
+		],
+		"StartDay": 123,
+		"Contributors": [
+			"SundarP",
+			"ClementM",
+			"BakhodirW",
+			"JenK",
+			"ClementE"
+		]
+	},
+	{
+		"Name": "ChromeOSLitev3",
+		"Duration": 14,
+		"BestBefore": 810,
+		"CompletionPoints": 4455,
+		"SkillsRequired": [
+			{
+				"Name": "Angular-NET",
+				"Level": 2
+			},
+			{
+				"Name": "Parallelization-NET",
+				"Level": 1
+			},
+			{
+				"Name": "TypeScript-lib",
+				"Level": 6
+			}
+		],
+		"StartDay": 97,
+		"Contributors": [
+			"PhilippP",
+			"HiroshiW",
+			"PhilippY"
+		]
+	},
+	{
+		"Name": "AndroidTVMaxv5",
+		"Duration": 14,
+		"BestBefore": 909,
+		"CompletionPoints": 5055,
+		"SkillsRequired": [
+			{
+				"Name": "CloudComputing-NET",
+				"Level": 4
+			},
+			{
+				"Name": "Delphi",
+				"Level": 3
+			},
+			{
+				"Name": "HTML-py",
+				"Level": 1
+			}
+		],
+		"StartDay": 137,
+		"Contributors": [
+			"HiroshiF",
+			"SundarP",
+			"PhilippK"
+		]
+	},
+	{
+		"Name": "SitesSv1",
+		"Duration": 14,
+		"BestBefore": 394,
+		"CompletionPoints": 4734,
+		"SkillsRequired": [
+			{
+				"Name": "JavaScript-NET",
+				"Level": 2
+			},
+			{
+				"Name": "JavaScript-2+0",
+				"Level": 4
+			}
+		],
+		"StartDay": 97,
+		"Contributors": [
+			"SergeyU",
+			"ClementL"
+		]
+	},
+	{
+		"Name": "DocsNextv2",
+		"Duration": 14,
+		"BestBefore": 626,
+		"CompletionPoints": 4373,
+		"SkillsRequired": [
+			{
+				"Name": "Delphi",
+				"Level": 6
+			},
+			{
+				"Name": "PublicSpeaking-py",
+				"Level": 3
+			},
+			{
+				"Name": "JavaScript-2+0",
+				"Level": 1
+			}
+		],
+		"StartDay": 151,
+		"Contributors": [
+			"SundarP",
+			"MatasC",
+			"ClementL"
+		]
+	},
+	{
+		"Name": "ChromeNextv7",
+		"Duration": 14,
+		"BestBefore": 459,
+		"CompletionPoints": 8381,
+		"SkillsRequired": [
+			{
+				"Name": "PHP-py",
+				"Level": 1
+			},
+			{
+				"Name": "CloudComputing++",
+				"Level": 7
+			},
+			{
+				"Name": "TypeScript-lib",
+				"Level": 1
+			}
+		],
+		"StartDay": 123,
+		"Contributors": [
+			"BakhodirA",
+			"BakhodirD",
+			"PhilippY"
+		]
+	},
+	{
+		"Name": "GameProv3",
+		"Duration": 15,
+		"BestBefore": 400,
+		"CompletionPoints": 1732,
+		"SkillsRequired": [
+			{
+				"Name": "TypeScript-lib",
+				"Level": 5
+			}
+		],
+		"StartDay": 137,
+		"Contributors": [
+			"PhilippY"
+		]
+	},
+	{
+		"Name": "WearOSLitev5",
+		"Duration": 15,
+		"BestBefore": 296,
+		"CompletionPoints": 16854,
+		"SkillsRequired": [
+			{
+				"Name": "UXDesign",
+				"Level": 2
+			},
+			{
+				"Name": "CloudComputing++",
+				"Level": 5
+			},
+			{
+				"Name": "Dart",
+				"Level": 4
+			},
+			{
+				"Name": "PublicSpeaking-py",
+				"Level": 3
+			},
+			{
+				"Name": "Objective-C-lib",
+				"Level": 3
+			}
+		],
+		"StartDay": 137,
+		"Contributors": [
+			"NellyY",
+			"BakhodirD",
+			"TatiyanaC",
+			"JenK",
+			"PhilippI"
+		]
+	},
+	{
+		"Name": "GlassOSLitev9",
+		"Duration": 15,
+		"BestBefore": 840,
+		"CompletionPoints": 10858,
+		"SkillsRequired": [
+			{
+				"Name": "BusinessAnalysis-lib",
+				"Level": 9
+			},
+			{
+				"Name": "Security-js",
+				"Level": 7
+			},
+			{
+				"Name": "Blockchain++",
+				"Level": 3
+			},
+			{
+				"Name": "HTML-py",
+				"Level": 1
+			},
+			{
+				"Name": "CloudComputing-NET",
+				"Level": 1
+			},
+			{
+				"Name": "MySQL",
+				"Level": 1
+			}
+		],
+		"StartDay": 151,
+		"Contributors": [
+			"ClementT",
+			"BakhodirG",
+			"SundarA",
+			"PhilippK",
+			"PrabhakarR",
+			"PhilippH"
+		]
+	},
+	{
+		"Name": "ReleaseUltrav1",
+		"Duration": 15,
+		"BestBefore": 865,
+		"CompletionPoints": 3808,
+		"SkillsRequired": [
+			{
+				"Name": "BusinessAnalysis-lib",
+				"Level": 8
+			},
+			{
+				"Name": "CloudComputing++",
+				"Level": 7
+			}
+		],
+		"StartDay": 152,
+		"Contributors": [
+			"FionaJ",
+			"BakhodirD"
+		]
+	},
+	{
+		"Name": "StreetViewXv1",
+		"Duration": 15,
+		"BestBefore": 486,
+		"CompletionPoints": 9960,
+		"SkillsRequired": [
+			{
+				"Name": "Dart",
+				"Level": 2
+			},
+			{
+				"Name": "PublicSpeaking-py",
+				"Level": 3
+			},
+			{
+				"Name": "SQL-js",
+				"Level": 8
+			}
+		],
+		"StartDay": 152,
+		"Contributors": [
+			"TatiyanaC",
+			"JenK",
+			"FionaF"
+		]
+	},
+	{
+		"Name": "MarsUltrav8",
+		"Duration": 15,
+		"BestBefore": 657,
+		"CompletionPoints": 28250,
+		"SkillsRequired": [
+			{
+				"Name": "Objective-C-lib",
+				"Level": 4
+			},
+			{
+				"Name": "JavaScript-NET",
+				"Level": 1
+			},
+			{
+				"Name": "TechWriting-js",
+				"Level": 4
+			},
+			{
+				"Name": "Angular-NET",
+				"Level": 2
+			},
+			{
+				"Name": "Ajax-3+0",
+				"Level": 1
+			},
+			{
+				"Name": "Haskell",
+				"Level": 1
+			},
+			{
+				"Name": "Shell-py",
+				"Level": 3
+			},
+			{
+				"Name": "Security-js",
+				"Level": 3
+			},
+			{
+				"Name": "HTML-js",
+				"Level": 5
+			}
+		],
+		"StartDay": 152,
+		"Contributors": [
+			"PhilippI",
+			"SergeyU",
+			"SusanQ",
+			"PhilippP",
+			"StefanQ",
+			"BenjaminT",
+			"RuthX",
+			"PetarF",
+			"MatasW"
+		]
+	},
+	{
+		"Name": "CollectionsZv7",
+		"Duration": 16,
+		"BestBefore": 282,
+		"CompletionPoints": 14477,
+		"SkillsRequired": [
+			{
+				"Name": "Parallelization-NET",
+				"Level": 2
+			},
+			{
+				"Name": "PHP-py",
+				"Level": 6
+			},
+			{
+				"Name": "CloudComputing++",
+				"Level": 6
+			},
+			{
+				"Name": "Objective-C-lib",
+				"Level": 1
+			},
+			{
+				"Name": "Blockchain++",
+				"Level": 3
+			},
+			{
+				"Name": "Go-NET",
+				"Level": 7
+			},
+			{
+				"Name": "BusinessAnalysis-lib",
+				"Level": 6
+			}
+		],
+		"StartDay": 167,
+		"Contributors": [
+			"HiroshiW",
+			"SergeyV",
+			"BakhodirD",
+			"PhilippI",
+			"SundarA",
+			"SergeyN",
+			"ClementT"
+		]
+	},
+	{
+		"Name": "SmartSv2",
+		"Duration": 16,
+		"BestBefore": 774,
+		"CompletionPoints": 13742,
+		"SkillsRequired": [
+			{
+				"Name": "SQL-js",
+				"Level": 10
+			},
+			{
+				"Name": "CloudComputing-2+0",
+				"Level": 8
+			},
+			{
+				"Name": "HTML-py",
+				"Level": 1
+			},
+			{
+				"Name": "Haskell",
+				"Level": 2
+			},
+			{
+				"Name": "COBOL-lib",
+				"Level": 1
+			}
+		],
+		"StartDay": 167,
+		"Contributors": [
+			"FionaF",
+			"SundarH",
+			"PhilippK",
+			"BenjaminT",
+			"FionaN"
+		]
+	},
+	{
+		"Name": "SmartLitev9",
+		"Duration": 16,
+		"BestBefore": 691,
+		"CompletionPoints": 5493,
+		"SkillsRequired": [
+			{
+				"Name": "HTML++",
+				"Level": 1
+			},
+			{
+				"Name": "MATLAB",
+				"Level": 3
+			},
+			{
+				"Name": "Angular-NET",
+				"Level": 5
+			}
+		],
+		"StartDay": 167,
+		"Contributors": [
+			"JenZ",
+			"ThomasK",
+			"PhilippP"
+		]
+	},
+	{
+		"Name": "DuoMaxv1",
+		"Duration": 17,
+		"BestBefore": 314,
+		"CompletionPoints": 18203,
+		"SkillsRequired": [
+			{
+				"Name": "BusinessAnalysis-lib",
+				"Level": 10
+			},
+			{
+				"Name": "UXDesign",
+				"Level": 4
+			},
+			{
+				"Name": "Objective-C-lib",
+				"Level": 5
+			},
+			{
+				"Name": "Angular-NET",
+				"Level": 3
+			},
+			{
+				"Name": "JavaScript-2+0",
+				"Level": 2
+			}
+		],
+		"StartDay": 183,
+		"Contributors": [
+			"FionaJ",
+			"NellyY",
+			"PhilippI",
+			"PhilippP",
+			"ClementL"
+		]
+	},
+	{
+		"Name": "AndroidAutoZv2",
+		"Duration": 18,
+		"BestBefore": 345,
+		"CompletionPoints": 10769,
+		"SkillsRequired": [
+			{
+				"Name": "MySQL",
+				"Level": 2
+			},
+			{
+				"Name": "PublicSpeaking-py",
+				"Level": 2
+			},
+			{
+				"Name": "Objective-C-lib",
+				"Level": 1
+			},
+			{
+				"Name": "CloudComputing++",
+				"Level": 1
+			},
+			{
+				"Name": "JavaScript-NET",
+				"Level": 1
+			}
+		],
+		"StartDay": 200,
+		"Contributors": [
+			"PhilippH",
+			"HiroshiB",
+			"PhilippI",
+			"LarryX",
+			"SergeyU"
+		]
+	},
+	{
+		"Name": "DreamSv2",
+		"Duration": 18,
+		"BestBefore": 698,
+		"CompletionPoints": 12473,
+		"SkillsRequired": [
+			{
+				"Name": "TechWriting-js",
+				"Level": 3
+			},
+			{
+				"Name": "Angular-NET",
+				"Level": 6
+			},
+			{
+				"Name": "Go-NET",
+				"Level": 1
+			},
+			{
+				"Name": "Communication-lib",
+				"Level": 1
+			},
+			{
+				"Name": "Objective-C-lib",
+				"Level": 5
+			},
+			{
+				"Name": "HTML-js",
+				"Level": 4
+			}
+		],
+		"StartDay": 218,
+		"Contributors": [
+			"SusanQ",
+			"PhilippP",
+			"ClementM",
+			"LarryO",
+			"PhilippI",
+			"MatasW"
+		]
+	},
+	{
+		"Name": "DuoZv2",
+		"Duration": 18,
+		"BestBefore": 832,
+		"CompletionPoints": 10817,
+		"SkillsRequired": [
+			{
+				"Name": "TypeScript-lib",
+				"Level": 2
+			},
+			{
+				"Name": "Delphi",
+				"Level": 4
+			},
+			{
+				"Name": "SQL-js",
+				"Level": 6
+			}
+		],
+		"StartDay": 183,
+		"Contributors": [
+			"PhilippY",
+			"SundarP",
+			"FionaF"
+		]
+	},
+	{
+		"Name": "StreamXv9",
+		"Duration": 18,
+		"BestBefore": 283,
+		"CompletionPoints": 1518,
+		"SkillsRequired": [
+			{
+				"Name": "Communication-lib",
+				"Level": 2
+			}
+		],
+		"StartDay": 236,
+		"Contributors": [
+			"LarryO"
+		]
+	},
+	{
+		"Name": "GmailSv4",
+		"Duration": 18,
+		"BestBefore": 352,
+		"CompletionPoints": 5166,
+		"SkillsRequired": [
+			{
+				"Name": "Security-js",
+				"Level": 10
+			},
+			{
+				"Name": "UXDesign",
+				"Level": 4
+			}
+		],
+		"StartDay": 200,
+		"Contributors": [
+			"BakhodirG",
+			"NellyY"
+		]
+	},
+	{
+		"Name": "FuchsiaXv6",
+		"Duration": 18,
+		"BestBefore": 938,
+		"CompletionPoints": 4156,
+		"SkillsRequired": [
+			{
+				"Name": "PHP-py",
+				"Level": 4
+			},
+			{
+				"Name": "Blockchain++",
+				"Level": 1
+			}
+		],
+		"StartDay": 183,
+		"Contributors": [
+			"SundarL",
+			"SundarA"
+		]
+	},
+	{
+		"Name": "MapsProv8",
+		"Duration": 18,
+		"BestBefore": 831,
+		"CompletionPoints": 9450,
+		"SkillsRequired": [
+			{
+				"Name": "Parallelization-NET",
+				"Level": 1
+			},
+			{
+				"Name": "Ajax-3+0",
+				"Level": 9
+			},
+			{
+				"Name": "CloudComputing++",
+				"Level": 3
+			}
+		],
+		"StartDay": 183,
+		"Contributors": [
+			"HiroshiW",
+			"SergeyT",
+			"BakhodirD"
+		]
+	},
+	{
+		"Name": "SitesUltrav5",
+		"Duration": 18,
+		"BestBefore": 837,
+		"CompletionPoints": 29943,
+		"SkillsRequired": [
+			{
+				"Name": "JavaScript-NET",
+				"Level": 2
+			},
+			{
+				"Name": "Objective-C-lib",
+				"Level": 6
+			},
+			{
+				"Name": "HTML-js",
+				"Level": 2
+			},
+			{
+				"Name": "Dart",
+				"Level": 5
+			},
+			{
+				"Name": "CloudComputing++",
+				"Level": 1
+			},
+			{
+				"Name": "Ajax-3+0",
+				"Level": 10
+			},
+			{
+				"Name": "TypeScript-lib",
+				"Level": 1
+			},
+			{
+				"Name": "Delphi",
+				"Level": 5
+			}
+		],
+		"StartDay": 236,
+		"Contributors": [
+			"SergeyU",
+			"PhilippI",
+			"MatasW",
+			"TatiyanaC",
+			"BakhodirD",
+			"SergeyT",
+			"PhilippY",
+			"SundarP"
+		]
+	},
+	{
+		"Name": "DuoZv4",
+		"Duration": 19,
+		"BestBefore": 682,
+		"CompletionPoints": 14968,
+		"SkillsRequired": [
+			{
+				"Name": "MATLAB",
+				"Level": 3
+			},
+			{
+				"Name": "Delphi",
+				"Level": 4
+			},
+			{
+				"Name": "CloudComputing++",
+				"Level": 2
+			},
+			{
+				"Name": "BusinessAnalysis-lib",
+				"Level": 9
+			},
+			{
+				"Name": "HTML-py",
+				"Level": 1
+			},
+			{
+				"Name": "Shell-py",
+				"Level": 5
+			},
+			{
+				"Name": "Assembly-py",
+				"Level": 2
+			}
+		],
+		"StartDay": 254,
+		"Contributors": [
+			"ThomasK",
+			"SundarP",
+			"LarryX",
+			"ClementT",
+			"PhilippK",
+			"RuthX",
+			"ThomasM"
+		]
+	},
+	{
+		"Name": "CultureProv7",
+		"Duration": 19,
+		"BestBefore": 458,
+		"CompletionPoints": 17371,
+		"SkillsRequired": [
+			{
+				"Name": "HTML-js",
+				"Level": 3
+			},
+			{
+				"Name": "Dart",
+				"Level": 1
+			},
+			{
+				"Name": "TypeScript-lib",
+				"Level": 6
+			},
+			{
+				"Name": "JavaScript-NET",
+				"Level": 1
+			},
+			{
+				"Name": "BusinessAnalysis-lib",
+				"Level": 9
+			},
+			{
+				"Name": "Assembly-py",
+				"Level": 4
+			},
+			{
+				"Name": "CloudComputing-2+0",
+				"Level": 5
+			},
+			{
+				"Name": "Accessibility-js",
+				"Level": 3
+			}
+		],
+		"StartDay": 273,
+		"Contributors": [
+			"MatasW",
+			"TatiyanaC",
+			"PhilippY",
+			"SergeyU",
+			"FionaJ",
+			"ThomasM",
+			"BenjaminO",
+			"ClementE"
+		]
+	},
+	{
+		"Name": "AlertsLitev7",
+		"Duration": 19,
+		"BestBefore": 727,
+		"CompletionPoints": 11882,
+		"SkillsRequired": [
+			{
+				"Name": "Go-NET",
+				"Level": 4
+			},
+			{
+				"Name": "CloudComputing-NET",
+				"Level": 5
+			},
+			{
+				"Name": "Ajax-3+0",
+				"Level": 11
+			},
+			{
+				"Name": "Haskell",
+				"Level": 3
+			}
+		],
+		"StartDay": 254,
+		"Contributors": [
+			"SergeyN",
+			"HiroshiF",
+			"SergeyT",
+			"BenjaminT"
+		]
+	},
+	{
+		"Name": "BloggerNextv8",
+		"Duration": 19,
+		"BestBefore": 467,
+		"CompletionPoints": 14306,
+		"SkillsRequired": [
+			{
+				"Name": "Angular-NET",
+				"Level": 6
+			},
+			{
+				"Name": "Accessibility-js",
+				"Level": 7
+			},
+			{
+				"Name": "HTML-js",
+				"Level": 8
+			},
+			{
+				"Name": "PHP-py",
+				"Level": 6
+			}
+		],
+		"StartDay": 292,
+		"Contributors": [
+			"PhilippP",
+			"ClementE",
+			"MatasW",
+			"SergeyV"
+		]
+	},
+	{
+		"Name": "GameLitev8",
+		"Duration": 19,
+		"BestBefore": 865,
+		"CompletionPoints": 12336,
+		"SkillsRequired": [
+			{
+				"Name": "Angular-NET",
+				"Level": 7
+			},
+			{
+				"Name": "HTML-py",
+				"Level": 2
+			},
+			{
+				"Name": "HTML-js",
+				"Level": 1
+			},
+			{
+				"Name": "Go-NET",
+				"Level": 4
+			}
+		],
+		"StartDay": 311,
+		"Contributors": [
+			"PhilippP",
+			"PhilippK",
+			"MatasW",
+			"SergeyN"
+		]
+	},
+	{
+		"Name": "ShoppingProv8",
+		"Duration": 20,
+		"BestBefore": 295,
+		"CompletionPoints": 3110,
+		"SkillsRequired": [
+			{
+				"Name": "COBOL-lib",
+				"Level": 1
+			},
+			{
+				"Name": "Objective-C-lib",
+				"Level": 3
+			}
+		],
+		"StartDay": 254,
+		"Contributors": [
+			"FionaN",
+			"PhilippI"
+		]
+	},
+	{
+		"Name": "SearchNextv1",
+		"Duration": 20,
+		"BestBefore": 906,
+		"CompletionPoints": 8768,
+		"SkillsRequired": [
+			{
+				"Name": "PHP-py",
+				"Level": 10
+			},
+			{
+				"Name": "Assembly-py",
+				"Level": 4
+			},
+			{
+				"Name": "MachineLearning-2+0",
+				"Level": 2
+			},
+			{
+				"Name": "Delphi",
+				"Level": 7
+			},
+			{
+				"Name": "MATLAB",
+				"Level": 4
+			}
+		],
+		"StartDay": 311,
+		"Contributors": [
+			"SergeyV",
+			"ThomasM",
+			"MichalB",
+			"SundarP",
+			"ThomasK"
+		]
+	},
+	{
+		"Name": "SlidesNextv2",
+		"Duration": 20,
+		"BestBefore": 259,
+		"CompletionPoints": 7950,
+		"SkillsRequired": [
+			{
+				"Name": "HTML++",
+				"Level": 2
+			},
+			{
+				"Name": "MySQL",
+				"Level": 2
+			}
+		],
+		"StartDay": 218,
+		"Contributors": [
+			"JenZ",
+			"PhilippH"
+		]
+	}
+]

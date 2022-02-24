@@ -1,0 +1,44 @@
+[
+	{
+		"Name": "WebServer",
+		"Duration": 7,
+		"BestBefore": 7,
+		"CompletionPoints": 10,
+		"SkillsRequired": [
+			{
+				"Name": "HTML",
+				"Level": 3
+			},
+			{
+				"Name": "C++",
+				"Level": 2
+			}
+		],
+		"StartDay": 0,
+		"Contributors": [
+			"Bob",
+			"Anna"
+		]
+	},
+	{
+		"Name": "WebChat",
+		"Duration": 10,
+		"BestBefore": 20,
+		"CompletionPoints": 20,
+		"SkillsRequired": [
+			{
+				"Name": "Python",
+				"Level": 3
+			},
+			{
+				"Name": "HTML",
+				"Level": 3
+			}
+		],
+		"StartDay": 7,
+		"Contributors": [
+			"Maria",
+			"Bob"
+		]
+	}
+]

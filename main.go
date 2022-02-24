@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"log"
@@ -24,12 +25,14 @@ type Project struct {
 	BestBefore       int
 	CompletionPoints int
 	SkillsRequired   []Skill
+	StartDay         int
+	Contributors     []string
 }
 
 type Contributor struct {
 	Name        string
 	Skills      map[string]Skill
-	WorkingDays int
+	AvailableOn int
 }
 
 func (c *Contributor) LevelIn(skillName string) int {
@@ -41,7 +44,7 @@ func (c *Contributor) LevelIn(skillName string) int {
 }
 
 func (c *Contributor) AvailableFor(project Project) bool {
-	return c.WorkingDays+project.Duration <= project.BestBefore
+	return c.AvailableOn+project.Duration <= project.BestBefore
 }
 
 func (c *Contributor) IsPartOf(contributors []string) bool {
@@ -109,27 +112,33 @@ func parseFile(exampleFile string) {
 		contributors[contributorName] = Contributor{
 			Name:        contributorName,
 			Skills:      skills,
-			WorkingDays: 0,
+			AvailableOn: 0,
 		}
 	}
 
 	projects := scanProjects(projectsCount, scanner)
 
 	sort.Slice(projects, func(i, j int) bool {
-		return projects[i].CompletionPoints > projects[j].CompletionPoints
+		return projects[i].Duration < projects[j].Duration
+		//return projects[i].BestBefore < projects[j].BestBefore
+		//return projects[i].CompletionPoints > projects[j].CompletionPoints
 	})
 
+	var projects2 []Project
+
 	for _, project := range projects {
-		contributorNames := getContributorsForProject(project, contributors)
-		if contributorNames == nil {
+		err := getProjectWithContributors(&project, contributors)
+		if err != nil {
+			fmt.Println("Skipped: " + project.Name)
 			continue
 		}
 
-		projectWithContributors := ProjectWithContributors{
+		resultingProjectWithContributor := ProjectWithContributors{
 			ProjectName:  project.Name,
-			Contributors: contributorNames,
+			Contributors: project.Contributors,
 		}
-		projectsWithContributors = append(projectsWithContributors, projectWithContributors)
+		projectsWithContributors = append(projectsWithContributors, resultingProjectWithContributor)
+		projects2 = append(projects2, project)
 	}
 
 	// Write to result file
@@ -143,34 +152,70 @@ func parseFile(exampleFile string) {
 	}
 
 	// Write to log file
-	err = os.WriteFile(fmt.Sprintf("logs/%s.out.txt", exampleFile), []byte(fmt.Sprintf("%v\n%v", contributors, projects)), 0644)
+	contributorsJson, err := json.MarshalIndent(contributors, "", "\t")
+	checkErr(err)
+	projectsJson, err := json.MarshalIndent(projects2, "", "\t")
+	checkErr(err)
+	projectsWithContributorsJson, err := json.MarshalIndent(projectsWithContributors, "", "\t")
+	checkErr(err)
+	err = os.WriteFile(fmt.Sprintf("logs/%s.contributors", exampleFile), []byte(fmt.Sprintf("%v", string(contributorsJson))), 0644)
+	err = os.WriteFile(fmt.Sprintf("logs/%s.projects", exampleFile), []byte(fmt.Sprintf("%v", string(projectsJson))), 0644)
+	err = os.WriteFile(fmt.Sprintf("logs/%s.result", exampleFile), []byte(fmt.Sprintf("%v", string(projectsWithContributorsJson))), 0644)
 	if err != nil {
 		log.Fatal(err)
 	}
 }
 
-func getContributorsForProject(project Project, contributors map[string]Contributor) []string {
+func getProjectWithContributors(project *Project, contributors map[string]Contributor) error {
 	projectContributors := []string{}
+	skillUsedByContributors := make(map[string]Skill)
 	for _, requiredSkill := range project.SkillsRequired {
-		contributorName := getContributorForSkill(project, contributors, projectContributors, requiredSkill)
+		isMentorAvailable := IsMentorAvailableForProject(requiredSkill, contributors, projectContributors)
+		contributorName := getContributorForSkill(*project, contributors, projectContributors, requiredSkill, isMentorAvailable)
 		if contributorName == "" {
-			return nil
+			return fmt.Errorf("skipped")
 		}
+		skillUsedByContributors[contributorName] = requiredSkill
 		projectContributors = append(projectContributors, contributorName)
+	}
+
+	project.StartDay = 0
+	for _, projectContributor := range projectContributors {
+		contributor := contributors[projectContributor]
+		if contributor.AvailableOn > project.StartDay {
+			project.StartDay = contributor.AvailableOn
+		}
 	}
 
 	for _, projectContributor := range projectContributors {
 		contributor := contributors[projectContributor]
-		contributor.WorkingDays = contributor.WorkingDays + project.Duration
+		skillUsedByContributor := skillUsedByContributors[contributor.Name]
+		contributorSkillLevel := contributor.LevelIn(skillUsedByContributor.Name)
+		if contributorSkillLevel <= skillUsedByContributor.Level {
+			contributorSkill := contributors[projectContributor].Skills[skillUsedByContributor.Name]
+			contributorSkill.Level = contributorSkill.Level + 1
+			contributor.Skills[skillUsedByContributor.Name] = contributorSkill
+		}
+		contributor.AvailableOn = project.StartDay + project.Duration
 		contributors[projectContributor] = contributor
 	}
-	return projectContributors
+
+	project.Contributors = projectContributors
+	return nil
 }
 
-func getContributorForSkill(project Project, contributors map[string]Contributor, projectContributors []string, requiredSkill Skill) string {
+func getContributorForSkill(project Project, contributors map[string]Contributor, projectContributors []string, requiredSkill Skill, mentorAvailable bool) string {
+	// First iteration: Look for a contributor available before the end of project
+	bestContributor := ""
+	//lowerConstributorLevel := 99999999999
+	lowerStartDay := 99999999999
 	for _, contributor := range contributors {
-		contributorSkill, contributorHasSkill := contributor.Skills[requiredSkill.Name]
-		if !contributorHasSkill {
+		contributorSkillLevel := contributor.LevelIn(requiredSkill.Name)
+		if contributorSkillLevel < requiredSkill.Level-1 {
+			continue
+		}
+
+		if contributorSkillLevel == requiredSkill.Level-1 && !mentorAvailable {
 			continue
 		}
 
@@ -178,13 +223,46 @@ func getContributorForSkill(project Project, contributors map[string]Contributor
 			continue
 		}
 
-		if contributor.AvailableFor(project) && (requiredSkill.Level <= contributorSkill.Level) {
-			projectContributors = append(projectContributors, contributor.Name)
-			return contributor.Name
+		if !contributor.AvailableFor(project) {
+			continue
+		}
+
+		//if contributorSkillLevel < lowerConstributorLevel {
+		//	bestContributor = contributor.Name
+		//	lowerConstributorLevel = contributorSkillLevel
+		//}
+		if contributor.AvailableOn < lowerStartDay {
+			bestContributor = contributor.Name
+			lowerStartDay = contributor.AvailableOn
 		}
 	}
-	// We didn't find someone for this skill, let's test next project
-	return ""
+
+	if bestContributor != "" {
+		return bestContributor
+	}
+
+	//// Second iteration: Look for a contributor even if not available
+	////lowerConstributorLevel = 99999999999
+	//for _, contributor := range contributors {
+	//	contributorSkillLevel := contributor.LevelIn(requiredSkill.Name)
+	//	if contributorSkillLevel < requiredSkill.Level {
+	//		continue
+	//	}
+	//
+	//	if contributor.IsPartOf(projectContributors) {
+	//		continue
+	//	}
+	//
+	//	//if contributorSkillLevel < lowerConstributorLevel {
+	//	//	bestContributor = contributor.Name
+	//	//	lowerConstributorLevel = contributorSkillLevel
+	//	//}
+	//	if contributor.AvailableOn < lowerStartDay {
+	//		bestContributor = contributor.Name
+	//		lowerStartDay = contributor.AvailableOn
+	//	}
+	//}
+	return bestContributor
 }
 
 func getContributorsWithExactlevel(projectSkill Skill, contributors map[string]Contributor) []Contributor {
@@ -205,6 +283,16 @@ func getPotentialMentors(projectSkill Skill, contributors map[string]Contributor
 		}
 	}
 	return potentialMentors
+}
+
+func IsMentorAvailableForProject(projectSkill Skill, contributorsMap map[string]Contributor, projectContributors []string) bool {
+	for _, contributor := range projectContributors {
+		contributor := contributorsMap[contributor]
+		if contributor.LevelIn(projectSkill.Name) >= projectSkill.Level {
+			return true
+		}
+	}
+	return false
 }
 
 func getPotentialMentees(projectSkill Skill, contributors map[string]Contributor) []Contributor {
@@ -243,8 +331,8 @@ func scanProjects(projectsCount int, scanner *bufio.Scanner) []Project {
 		projects = append(projects, Project{
 			Name:             lineSplitted[0],
 			Duration:         Atoi(lineSplitted[1]),
-			BestBefore:       Atoi(lineSplitted[2]),
-			CompletionPoints: Atoi(lineSplitted[3]),
+			BestBefore:       Atoi(lineSplitted[3]),
+			CompletionPoints: Atoi(lineSplitted[2]),
 			SkillsRequired:   skills,
 		})
 	}
@@ -271,10 +359,6 @@ func parseLineWith1String1Int(line string) (string, int) {
 func parseLineWith2int(line string) (int, int) {
 	lineSplitted := strings.Split(line, " ")
 	return Atoi(lineSplitted[0]), Atoi(lineSplitted[1])
-}
-
-func parseLine(line string) []string {
-	return RemoveIndex(strings.Fields(line), 0)
 }
 
 func RemoveIndex(s []string, index int) []string {

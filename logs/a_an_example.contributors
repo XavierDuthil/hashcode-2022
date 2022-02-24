@@ -1,0 +1,36 @@
+{
+	"Anna": {
+		"Name": "Anna",
+		"Skills": {
+			"C++": {
+				"Name": "C++",
+				"Level": 3
+			}
+		},
+		"AvailableOn": 7
+	},
+	"Bob": {
+		"Name": "Bob",
+		"Skills": {
+			"CSS": {
+				"Name": "CSS",
+				"Level": 5
+			},
+			"HTML": {
+				"Name": "HTML",
+				"Level": 5
+			}
+		},
+		"AvailableOn": 17
+	},
+	"Maria": {
+		"Name": "Maria",
+		"Skills": {
+			"Python": {
+				"Name": "Python",
+				"Level": 4
+			}
+		},
+		"AvailableOn": 17
+	}
+}

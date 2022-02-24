@@ -1,2 +1,0 @@
-map[Anna:{Anna map[C++:{C++ 2}] 0} Bob:{Bob map[CSS:{CSS 5} HTML:{HTML 5}] 10} Maria:{Maria map[Python:{Python 3}] 10}]
-[{WebChat 10 20 20 [{Python 3} {HTML 3}]} {WebServer 7 10 7 [{HTML 3} {C++ 2}]} {Logging 5 10 5 [{C++ 3}]}]

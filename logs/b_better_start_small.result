@@ -1,0 +1,471 @@
+[
+	{
+		"ProjectName": "MarsXv1",
+		"Contributors": [
+			"HiroshiF",
+			"FionaJ",
+			"MichalB",
+			"MichalP"
+		]
+	},
+	{
+		"ProjectName": "CastOSProv6",
+		"Contributors": [
+			"BakhodirD"
+		]
+	},
+	{
+		"ProjectName": "CollectionsNextv1",
+		"Contributors": [
+			"TatiyanaC",
+			"SergeyN",
+			"MatasW",
+			"ClementM"
+		]
+	},
+	{
+		"ProjectName": "MarsLitev5",
+		"Contributors": [
+			"BakhodirD",
+			"TatiyanaC"
+		]
+	},
+	{
+		"ProjectName": "ShortsNextv7",
+		"Contributors": [
+			"FionaF",
+			"PhilippY",
+			"PrabhakarR"
+		]
+	},
+	{
+		"ProjectName": "MapsSv7",
+		"Contributors": [
+			"SundarA",
+			"PhilippK",
+			"FionaF",
+			"LarryO",
+			"ClementM",
+			"ThomasK",
+			"MatasW",
+			"LarryX",
+			"ClementE",
+			"BakhodirD"
+		]
+	},
+	{
+		"ProjectName": "ConnectLitev9",
+		"Contributors": [
+			"SundarA"
+		]
+	},
+	{
+		"ProjectName": "ClassroomMaxv2",
+		"Contributors": [
+			"TatiyanaC",
+			"SusanQ"
+		]
+	},
+	{
+		"ProjectName": "StreamXv6",
+		"Contributors": [
+			"SundarH",
+			"JenK",
+			"SergeyN",
+			"ClementM",
+			"ClementT"
+		]
+	},
+	{
+		"ProjectName": "BuildMaxv1",
+		"Contributors": [
+			"MichalB",
+			"RuthX",
+			"NellyY",
+			"BakhodirG",
+			"SergeyV"
+		]
+	},
+	{
+		"ProjectName": "StreetViewProv9",
+		"Contributors": [
+			"SundarA",
+			"MatasC",
+			"ClementE",
+			"MatasW",
+			"HiroshiB",
+			"PhilippK",
+			"NellyY",
+			"LarryO"
+		]
+	},
+	{
+		"ProjectName": "DaydreamLitev7",
+		"Contributors": [
+			"BenjaminO"
+		]
+	},
+	{
+		"ProjectName": "FeedBurnerMaxv3",
+		"Contributors": [
+			"TatiyanaC",
+			"LarryO"
+		]
+	},
+	{
+		"ProjectName": "ChromeOSUltrav5",
+		"Contributors": [
+			"JenK",
+			"PhilippH",
+			"SergeyU",
+			"HiroshiW",
+			"PhilippK",
+			"ClementL"
+		]
+	},
+	{
+		"ProjectName": "GmailLitev9",
+		"Contributors": [
+			"PhilippP",
+			"PetarF",
+			"ThomasK",
+			"StefanQ",
+			"BakhodirG",
+			"MatasW",
+			"LarryX",
+			"HiroshiF",
+			"JenG",
+			"SergeyN"
+		]
+	},
+	{
+		"ProjectName": "WebserverProv6",
+		"Contributors": [
+			"PhilippP"
+		]
+	},
+	{
+		"ProjectName": "AndroidTVNextv1",
+		"Contributors": [
+			"MatasC",
+			"MichalZ",
+			"SergeyV",
+			"LarryO",
+			"PhilippP",
+			"ThomasM",
+			"SergeyU",
+			"SundarL"
+		]
+	},
+	{
+		"ProjectName": "GameProv6",
+		"Contributors": [
+			"LarryO",
+			"SusanQ",
+			"SergeyT"
+		]
+	},
+	{
+		"ProjectName": "ExploreUltrav8",
+		"Contributors": [
+			"BakhodirD",
+			"ClementM",
+			"SundarL",
+			"PrabhakarR",
+			"FionaJ",
+			"SusanQ",
+			"ClementE"
+		]
+	},
+	{
+		"ProjectName": "ResearchXv8",
+		"Contributors": [
+			"SundarP",
+			"ClementM",
+			"BakhodirW",
+			"JenK",
+			"ClementE"
+		]
+	},
+	{
+		"ProjectName": "ChromeOSLitev3",
+		"Contributors": [
+			"PhilippP",
+			"HiroshiW",
+			"PhilippY"
+		]
+	},
+	{
+		"ProjectName": "AndroidTVMaxv5",
+		"Contributors": [
+			"HiroshiF",
+			"SundarP",
+			"PhilippK"
+		]
+	},
+	{
+		"ProjectName": "SitesSv1",
+		"Contributors": [
+			"SergeyU",
+			"ClementL"
+		]
+	},
+	{
+		"ProjectName": "DocsNextv2",
+		"Contributors": [
+			"SundarP",
+			"MatasC",
+			"ClementL"
+		]
+	},
+	{
+		"ProjectName": "ChromeNextv7",
+		"Contributors": [
+			"BakhodirA",
+			"BakhodirD",
+			"PhilippY"
+		]
+	},
+	{
+		"ProjectName": "GameProv3",
+		"Contributors": [
+			"PhilippY"
+		]
+	},
+	{
+		"ProjectName": "WearOSLitev5",
+		"Contributors": [
+			"NellyY",
+			"BakhodirD",
+			"TatiyanaC",
+			"JenK",
+			"PhilippI"
+		]
+	},
+	{
+		"ProjectName": "GlassOSLitev9",
+		"Contributors": [
+			"ClementT",
+			"BakhodirG",
+			"SundarA",
+			"PhilippK",
+			"PrabhakarR",
+			"PhilippH"
+		]
+	},
+	{
+		"ProjectName": "ReleaseUltrav1",
+		"Contributors": [
+			"FionaJ",
+			"BakhodirD"
+		]
+	},
+	{
+		"ProjectName": "StreetViewXv1",
+		"Contributors": [
+			"TatiyanaC",
+			"JenK",
+			"FionaF"
+		]
+	},
+	{
+		"ProjectName": "MarsUltrav8",
+		"Contributors": [
+			"PhilippI",
+			"SergeyU",
+			"SusanQ",
+			"PhilippP",
+			"StefanQ",
+			"BenjaminT",
+			"RuthX",
+			"PetarF",
+			"MatasW"
+		]
+	},
+	{
+		"ProjectName": "CollectionsZv7",
+		"Contributors": [
+			"HiroshiW",
+			"SergeyV",
+			"BakhodirD",
+			"PhilippI",
+			"SundarA",
+			"SergeyN",
+			"ClementT"
+		]
+	},
+	{
+		"ProjectName": "SmartSv2",
+		"Contributors": [
+			"FionaF",
+			"SundarH",
+			"PhilippK",
+			"BenjaminT",
+			"FionaN"
+		]
+	},
+	{
+		"ProjectName": "SmartLitev9",
+		"Contributors": [
+			"JenZ",
+			"ThomasK",
+			"PhilippP"
+		]
+	},
+	{
+		"ProjectName": "DuoMaxv1",
+		"Contributors": [
+			"FionaJ",
+			"NellyY",
+			"PhilippI",
+			"PhilippP",
+			"ClementL"
+		]
+	},
+	{
+		"ProjectName": "AndroidAutoZv2",
+		"Contributors": [
+			"PhilippH",
+			"HiroshiB",
+			"PhilippI",
+			"LarryX",
+			"SergeyU"
+		]
+	},
+	{
+		"ProjectName": "DreamSv2",
+		"Contributors": [
+			"SusanQ",
+			"PhilippP",
+			"ClementM",
+			"LarryO",
+			"PhilippI",
+			"MatasW"
+		]
+	},
+	{
+		"ProjectName": "DuoZv2",
+		"Contributors": [
+			"PhilippY",
+			"SundarP",
+			"FionaF"
+		]
+	},
+	{
+		"ProjectName": "StreamXv9",
+		"Contributors": [
+			"LarryO"
+		]
+	},
+	{
+		"ProjectName": "GmailSv4",
+		"Contributors": [
+			"BakhodirG",
+			"NellyY"
+		]
+	},
+	{
+		"ProjectName": "FuchsiaXv6",
+		"Contributors": [
+			"SundarL",
+			"SundarA"
+		]
+	},
+	{
+		"ProjectName": "MapsProv8",
+		"Contributors": [
+			"HiroshiW",
+			"SergeyT",
+			"BakhodirD"
+		]
+	},
+	{
+		"ProjectName": "SitesUltrav5",
+		"Contributors": [
+			"SergeyU",
+			"PhilippI",
+			"MatasW",
+			"TatiyanaC",
+			"BakhodirD",
+			"SergeyT",
+			"PhilippY",
+			"SundarP"
+		]
+	},
+	{
+		"ProjectName": "DuoZv4",
+		"Contributors": [
+			"ThomasK",
+			"SundarP",
+			"LarryX",
+			"ClementT",
+			"PhilippK",
+			"RuthX",
+			"ThomasM"
+		]
+	},
+	{
+		"ProjectName": "CultureProv7",
+		"Contributors": [
+			"MatasW",
+			"TatiyanaC",
+			"PhilippY",
+			"SergeyU",
+			"FionaJ",
+			"ThomasM",
+			"BenjaminO",
+			"ClementE"
+		]
+	},
+	{
+		"ProjectName": "AlertsLitev7",
+		"Contributors": [
+			"SergeyN",
+			"HiroshiF",
+			"SergeyT",
+			"BenjaminT"
+		]
+	},
+	{
+		"ProjectName": "BloggerNextv8",
+		"Contributors": [
+			"PhilippP",
+			"ClementE",
+			"MatasW",
+			"SergeyV"
+		]
+	},
+	{
+		"ProjectName": "GameLitev8",
+		"Contributors": [
+			"PhilippP",
+			"PhilippK",
+			"MatasW",
+			"SergeyN"
+		]
+	},
+	{
+		"ProjectName": "ShoppingProv8",
+		"Contributors": [
+			"FionaN",
+			"PhilippI"
+		]
+	},
+	{
+		"ProjectName": "SearchNextv1",
+		"Contributors": [
+			"SergeyV",
+			"ThomasM",
+			"MichalB",
+			"SundarP",
+			"ThomasK"
+		]
+	},
+	{
+		"ProjectName": "SlidesNextv2",
+		"Contributors": [
+			"JenZ",
+			"PhilippH"
+		]
+	}
+]
